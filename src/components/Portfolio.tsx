@@ -6,10 +6,9 @@ interface PortfolioProps {
     profit: number
     profitRate: number
   }
-  btcPrice: number
 }
 
-export default function Portfolio({ portfolio, btcPrice }: PortfolioProps) {
+export default function Portfolio({ portfolio }: PortfolioProps) {
   const getProfitColor = (profit: number) => {
     if (profit > 0) return 'text-green-400'
     if (profit < 0) return 'text-red-400'

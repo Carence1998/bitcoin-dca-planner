@@ -123,7 +123,7 @@ export default function App() {
         {/* Portfolio Overview */}
         {investments.length > 0 && (
           <div className="mb-8">
-            <Portfolio portfolio={portfolio} btcPrice={btcPrice} />
+            <Portfolio portfolio={portfolio} />
           </div>
         )}
 
