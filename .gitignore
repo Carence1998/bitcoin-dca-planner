@@ -6,3 +6,6 @@ dist-ssr
 .env.local
 .vscode/settings.json
 *.log
+*.tsbuildinfo
+*.d.ts
+vite.config.js
